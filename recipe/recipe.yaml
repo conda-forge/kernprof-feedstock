@@ -1,5 +1,5 @@
 context:
-  version: "5.0.0"
+  version: "5.0.1"
   python_min: "3.10"
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/l/line_profiler/line_profiler-${{ version }}.tar.gz
-  sha256: a80f0afb05ba0d275d9dddc5ff97eab637471167ff3e66dcc7d135755059398c
+  sha256: 3e56c5eee51aa8b82a09d8a35ab19f4100ee45d70eb676c2c58deedcc06c34b1
 
 build:
   script:
