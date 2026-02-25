@@ -36,6 +36,7 @@ requirements:
   run:
     - python
     - tomli
+    - typing-extensions
 
 tests:
   - python:
