@@ -1,5 +1,5 @@
 context:
-  version: "5.0.2"
+  version: "5.1.0"
   python_min: "3.10"
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/l/line_profiler/line_profiler-${{ version }}.tar.gz
-  sha256: 8d8a990c84c64bcde45af22af502d17bc0ae107be405ce41bba92af5c39c0000
+  sha256: 5717a2dccf0ced65fd19ba5e479581c47412831fe768bc211c6d0f5ba1ad9b47
 
 build:
   script:
@@ -19,7 +19,7 @@ build:
   python:
     entry_points:
       - kernprof = kernprof:main
-  number: 1
+  number: 0
 
 requirements:
   build:
